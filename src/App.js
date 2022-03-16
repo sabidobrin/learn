@@ -21,7 +21,7 @@ export default function App () {
             <Route path='/tasks/web-crawler' element={<WebCrawler />} />
 
             <Route path='/tasks' element={<Tasks />} />
-            <Route path='/' element={<div />} />
+            <Route path='/' element={<Tasks />} />
             </Routes>
         </BrowserRouter>
     </div>);
